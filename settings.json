@@ -4,21 +4,21 @@
     "**/.cache-loader": true,
     "**/node_modules": true
   },
-  "editor.formatOnSaveTimeout": 400,
   "window.menuBarVisibility": "default",
-  "editor.formatOnSave": true,
-  "[html]": {
-    "editor.formatOnSave": false
-  },
-  "editor.fontSize": 15,
-  "editor.fontFamily": "Fira Code, Consolas, monospace",
+  "editor.fontSize": 16,
+  "editor.fontFamily": "Hasklig",
   "files.trimTrailingWhitespace": true,
   "editor.fontLigatures": true,
   "editor.minimap.enabled": false,
   "files.eol": "\n",
+  "editor.formatOnSaveTimeout": 400,
+  "editor.formatOnSave": true,
+  "[html]": {
+    "editor.formatOnSave": false
+  },
   "editor.foldingStrategy": "indentation",
-  "liveServer.settings.donotShowInfoMsg": true,
   "editor.formatOnPaste": false,
   "editor.formatOnType": false,
-  "window.zoomLevel": 0
+  "window.zoomLevel": 0,
+  "workbench.colorTheme": "Noctis Obscuro"
 }

@@ -1,0 +1,24 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "files.exclude": {
+    "**/.cache-loader": true,
+    "**/node_modules": true
+  },
+  "editor.formatOnSaveTimeout": 400,
+  "window.menuBarVisibility": "default",
+  "editor.formatOnSave": true,
+  "[html]": {
+    "editor.formatOnSave": false
+  },
+  "editor.fontSize": 15,
+  "editor.fontFamily": "Fira Code, Consolas, monospace",
+  "files.trimTrailingWhitespace": true,
+  "editor.fontLigatures": true,
+  "editor.minimap.enabled": false,
+  "files.eol": "\n",
+  "editor.foldingStrategy": "indentation",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
+  "window.zoomLevel": 0
+}

@@ -1,6 +1,6 @@
+alefragnani.project-manager
 Anjali.clipboard-history
 christian-kohler.npm-intellisense
-christian-kohler.path-intellisense
 CoenraadS.bracket-pair-colorizer-2
 cssho.vscode-svgviewer
 dariofuzinato.vue-peek
@@ -18,10 +18,15 @@ mrmlnc.vscode-duplicate
 ms-vscode.vscode-typescript-tslint-plugin
 mubaidr.vuejs-extension-pack
 octref.vetur
+oderwat.indent-rainbow
 PKief.material-icon-theme
 pnp.polacode
+pranaygp.vscode-css-peek
 robinbentley.sass-indented
 shd101wyy.markdown-preview-enhanced
 silvenon.mdx
-tombonnike.vscode-status-bar-format-toggle
+steoates.autoimport
+stevencl.addDocComments
+wayou.vscode-todo-highlight
+wix.vscode-import-cost
 xabikos.JavaScriptSnippets

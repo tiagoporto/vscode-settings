@@ -4,21 +4,31 @@
     "**/.cache-loader": true,
     "**/node_modules": true
   },
-  "window.menuBarVisibility": "default",
-  "editor.fontSize": 16,
-  "editor.fontFamily": "Hasklig",
   "files.trimTrailingWhitespace": true,
+  "window.zoomLevel": 0,
+  "editor.fontSize": 16,
+  "editor.fontFamily": "\"Fira Code\"",
   "editor.fontLigatures": true,
   "editor.minimap.enabled": false,
-  "files.eol": "\n",
-  "editor.formatOnSaveTimeout": 400,
+  "editor.renderWhitespace": "all",
   "editor.formatOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "workbench.colorTheme": "Noctis",
+  "editor.formatOnPaste": false,
   "[html]": {
     "editor.formatOnSave": false
   },
-  "editor.foldingStrategy": "indentation",
-  "editor.formatOnPaste": false,
+  "eslint.validate": [
+    { "language": "vue", "autoFix": true },
+    { "language": "javascript", "autoFix": true },
+    { "language": "javascriptreact", "autoFix": true },
+    { "language": "typescript", "autoFix": true },
+    { "language": "typescriptreact", "autoFix": true }
+  ],
   "editor.formatOnType": false,
-  "window.zoomLevel": 0,
-  "workbench.colorTheme": "Noctis Obscuro"
+  "eslint.autoFixOnSave": true,
+  "prettier.eslintIntegration": true,
+  "html.format.enable": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "vetur.format.enable": false
 }

@@ -12,6 +12,8 @@ fabiodam.vscode-console-wrapper
 fabiospampinato.vscode-bump
 formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
+ionutvmi.path-autocomplet
+jock.svg
 liviuschera.noctis
 manuth.markdown-converter
 mrmlnc.vscode-duplicate
@@ -22,6 +24,7 @@ oderwat.indent-rainbow
 PKief.material-icon-theme
 pnp.polacode
 pranaygp.vscode-css-peek
+rebornix.project-snippets
 robinbentley.sass-indented
 shd101wyy.markdown-preview-enhanced
 silvenon.mdx

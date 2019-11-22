@@ -2,19 +2,20 @@
   "workbench.iconTheme": "material-icon-theme",
   "files.exclude": {
     "**/.cache-loader": true,
-    "**/node_modules": true
+    "**/node_modules": true,
+    "**/build": true
   },
   "files.trimTrailingWhitespace": true,
   "window.zoomLevel": 0,
   "editor.fontSize": 16,
-  "editor.fontFamily": "\"Fira Code\"",
+  "editor.fontFamily": "Hasklig, 'Fira Code'",
   "editor.fontLigatures": true,
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "all",
   "editor.formatOnSave": true,
   "eslint.alwaysShowStatus": true,
-  "workbench.colorTheme": "Noctis",
-  "editor.formatOnPaste": false,
+  "workbench.colorTheme": "Noctis Obscuro",
+  "editor.formatOnPaste": true,
   "[html]": {
     "editor.formatOnSave": false
   },
@@ -25,10 +26,33 @@
     { "language": "typescript", "autoFix": true },
     { "language": "typescriptreact", "autoFix": true }
   ],
+  "files.associations": {
+    ".browserslistrc": "powershell"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.accessibilitySupport": "off",
+  "editor.foldingStrategy": "indentation",
   "editor.formatOnType": false,
   "eslint.autoFixOnSave": true,
   "prettier.eslintIntegration": true,
   "html.format.enable": false,
   "workbench.startupEditor": "newUntitledFile",
-  "vetur.format.enable": false
+  "vetur.format.enable": false,
+  "todohighlight.keywords": [
+    "DEBUG:",
+    "REVIEW:",
+    "TODO:",
+    {
+      "text": "BUG:",
+      "color": "red",
+      "backgroundColor": "lightpink"
+    },
+    {
+      "text": "NOTE:",
+      "color": "navy",
+      "backgroundColor": "aqua"
+    },
+    "HACK:"
+  ]
 }

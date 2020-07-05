@@ -1,5 +1,10 @@
 # vscode-settings
 
+## Fonts
+
+- [Haskig](https://github.com/i-tu/Hasklig)
+- [Fira Code](https://github.com/tonsky/FiraCode)
+
 ## Extensions
 
 > Mac users need to add command to PATH

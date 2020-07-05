@@ -7,6 +7,7 @@
   },
   "files.trimTrailingWhitespace": true,
   "window.zoomLevel": 0,
+  "explorer.compactFolders": false,
   "editor.fontSize": 16,
   "editor.fontFamily": "Hasklig, 'Fira Code'",
   "editor.fontLigatures": true,

@@ -4,7 +4,7 @@ christian-kohler.npm-intellisense
 CoenraadS.bracket-pair-colorizer-2
 cssho.vscode-svgviewer
 dariofuzinato.vue-peek
-DavidAnson.vscode-markdownlint
+DavidAnson.vscode-downlint
 dbaeumer.vscode-eslint
 EditorConfig.EditorConfig
 esbenp.prettier-vscode
@@ -12,11 +12,12 @@ fabiodam.vscode-console-wrapper
 fabiospampinato.vscode-bump
 formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
-ionutvmi.path-autocomplet
+ionutvmi.path-autocomplete
 jock.svg
 liviuschera.noctis
 manuth.markdown-converter
 mrmlnc.vscode-duplicate
+mrmlnc.vscode-scss
 ms-vscode.vscode-typescript-tslint-plugin
 mubaidr.vuejs-extension-pack
 octref.vetur
@@ -26,10 +27,13 @@ pnp.polacode
 pranaygp.vscode-css-peek
 rebornix.project-snippets
 robinbentley.sass-indented
-shd101wyy.markdown-preview-enhanced
+shd101wyy.
+down-preview-enhanced
 silvenon.mdx
 steoates.autoimport
 stevencl.addDocComments
+shd101wyy.markdown-preview-enhanced
 wayou.vscode-todo-highlight
 wix.vscode-import-cost
 xabikos.JavaScriptSnippets
+yzhang.markdown-all-in-one

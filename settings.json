@@ -20,11 +20,11 @@
     "editor.formatOnSave": false
   },
   "eslint.validate": [
-    { "language": "vue", "autoFix": true },
-    { "language": "javascript", "autoFix": true },
-    { "language": "javascriptreact", "autoFix": true },
-    { "language": "typescript", "autoFix": true },
-    { "language": "typescriptreact", "autoFix": true }
+    "vue",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
   ],
   "files.associations": {
     ".browserslistrc": "powershell"

@@ -56,5 +56,6 @@
       "backgroundColor": "aqua"
     },
     "HACK:"
-  ]
+  ],
+  "markdown.extension.toc.levels": "2..6"
 }

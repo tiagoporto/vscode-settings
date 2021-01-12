@@ -1,15 +1,18 @@
 {
   "workbench.iconTheme": "material-icon-theme",
   "files.exclude": {
-    "**/.cache-loader": true,
+    "**/build": true,
+    "**/coverage": true,
+    "**/dist": true,
     "**/node_modules": true,
-    "**/build": true
+    "**/.cache-loader": true,
   },
   "files.trimTrailingWhitespace": true,
   "window.zoomLevel": 0,
   "explorer.compactFolders": false,
   "editor.fontSize": 16,
   "editor.fontFamily": "Hasklig, 'Fira Code'",
+  "editor.rulers": [80],
   "editor.fontLigatures": true,
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "all",
@@ -28,7 +31,8 @@
     "typescriptreact"
   ],
   "files.associations": {
-    ".browserslistrc": "powershell"
+    ".browserslistrc": "properties",
+    ".huskyrc": "json"
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
   "javascript.updateImportsOnFileMove.enabled": "always",
@@ -57,5 +61,12 @@
     },
     "HACK:"
   ],
+  "search.exclude": {
+    "**/package-lock.json": true
+  },
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "markdown.extension.toc.levels": "2..6"
 }

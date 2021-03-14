@@ -40,8 +40,9 @@
   "editor.accessibilitySupport": "off",
   "editor.foldingStrategy": "indentation",
   "editor.formatOnType": false,
-  "eslint.autoFixOnSave": true,
-  "prettier.eslintIntegration": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
   "html.format.enable": false,
   "workbench.startupEditor": "none",
   "vetur.format.enable": false,
@@ -67,6 +68,5 @@
   "eslint.codeAction.showDocumentation": {
     "enable": true
   },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "markdown.extension.toc.levels": "2..6"
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }

@@ -32,7 +32,8 @@
   ],
   "files.associations": {
     ".browserslistrc": "properties",
-    ".huskyrc": "json"
+    ".huskyrc": "json",
+    ".lintstagedrc": "json"
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
   "javascript.updateImportsOnFileMove.enabled": "always",

@@ -17,10 +17,12 @@ formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
 GitHub.copilot
 GraphQL.vscode-graphql
+Gruntfuggly.todo-tree
 ionutvmi.path-autocomplete
 JamesBirtles.svelte-vscode
 jock.svg
 liviuschera.noctis
+mikestead.dotenv
 mrmlnc.vscode-apache
 mrmlnc.vscode-duplicate
 mrmlnc.vscode-scss
@@ -32,10 +34,13 @@ pnp.polacode
 rebornix.project-snippets
 shardulm94.trailing-spaces
 shd101wyy.markdown-preview-enhanced
+Shinotatwu-DS.file-tree-generator
 silvenon.mdx
 SimonSiefke.svg-preview
 steoates.autoimport
 streetsidesoftware.code-spell-checker
+styled-components.vscode-styled-components
+stylelint.vscode-stylelint
 sysoev.language-stylus
 thisismanta.stylus-supremacy
 wayou.vscode-todo-highlight

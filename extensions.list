@@ -26,6 +26,7 @@ mikestead.dotenv
 mrmlnc.vscode-apache
 mrmlnc.vscode-duplicate
 mrmlnc.vscode-scss
+ms-azuretools.vscode-docker
 mubaidr.vuejs-extension-pack
 octref.vetur
 oderwat.indent-rainbow

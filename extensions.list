@@ -22,6 +22,7 @@ ionutvmi.path-autocomplete
 JamesBirtles.svelte-vscode
 jock.svg
 liviuschera.noctis
+mattpocock.ts-error-translator
 mikestead.dotenv
 mrmlnc.vscode-apache
 mrmlnc.vscode-duplicate
@@ -30,6 +31,7 @@ ms-azuretools.vscode-docker
 mubaidr.vuejs-extension-pack
 octref.vetur
 oderwat.indent-rainbow
+philsinatra.nested-comments
 PKief.material-icon-theme
 pnp.polacode
 rebornix.project-snippets
@@ -39,6 +41,7 @@ Shinotatwu-DS.file-tree-generator
 silvenon.mdx
 SimonSiefke.svg-preview
 steoates.autoimport
+stkb.rewrap
 streetsidesoftware.code-spell-checker
 styled-components.vscode-styled-components
 stylelint.vscode-stylelint

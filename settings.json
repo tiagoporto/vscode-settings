@@ -1,74 +1,74 @@
 {
-  "workbench.iconTheme": "material-icon-theme",
+  "[sass]": {
+    "editor.defaultFormatter": "syler.sass-indented"
+  },
+  "[stylus]": {
+    "editor.defaultFormatter": "thisismanta.stylus-supremacy"
+  },
+  "clipboard-manager.maxClips": 20,
+  "clipboard-manager.preview": false,
+  "editor.accessibilitySupport": "off",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "Hasklig, 'Fira Code'",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 15,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [80],
+  "eslint.alwaysShowStatus": true,
+  "explorer.compactFolders": false,
+  "files.associations": {
+    "fastcgi.conf": "NGINX",
+    "mime.types": "NGINX",
+    "nginx.conf": "NGINX",
+    "proxy.conf": "NGINX"
+  },
+  "files.eol": "\n",
   "files.exclude": {
+    "**/.cache-loader": true,
     "**/build": true,
     "**/coverage": true,
     "**/dist": true,
-    "**/node_modules": true,
-    "**/.cache-loader": true,
+    "**/node_modules": true
   },
   "files.trimTrailingWhitespace": true,
-  "window.zoomLevel": 0,
-  "explorer.compactFolders": false,
-  "editor.fontSize": 16,
-  "editor.fontFamily": "Hasklig, 'Fira Code'",
-  "editor.rulers": [80],
-  "editor.fontLigatures": true,
-  "editor.minimap.enabled": false,
-  "editor.renderWhitespace": "all",
-  "editor.formatOnSave": true,
-  "eslint.alwaysShowStatus": true,
-  "workbench.colorTheme": "Noctis Obscuro",
-  "editor.formatOnPaste": true,
-  "[html]": {
-    "editor.formatOnSave": false
-  },
-  "eslint.validate": [
-    "vue",
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact"
+  "indentRainbow.colors": [
+    "rgba(255,255,64,0.15)",
+    "rgba(127,255,127,0.2)",
+    "rgba(255,127,255,0.15)",
+    "rgba(0, 35, 255,0.2)"
   ],
-  "files.associations": {
-    ".browserslistrc": "properties",
-    ".huskyrc": "json",
-    ".lintstagedrc": "json"
-  },
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "path-autocomplete.extensionOnImport": true,
-  "editor.accessibilitySupport": "off",
-  "editor.foldingStrategy": "indentation",
-  "editor.formatOnType": false,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  "html.format.enable": false,
-  "workbench.startupEditor": "none",
-  "vetur.format.enable": false,
+  "indentRainbow.errorColor": "rgba(128,32,32,0.6)",
+  "indentRainbow.tabmixColor": "rgba(128,32,96,0.6)",
+  "search.exclude": {},
   "todohighlight.keywords": [
     "DEBUG:",
     "REVIEW:",
     "TODO:",
     {
-      "text": "BUG:",
+      "backgroundColor": "lightpink",
       "color": "red",
-      "backgroundColor": "lightpink"
+      "text": "BUG:"
     },
     {
-      "text": "NOTE:",
+      "backgroundColor": "aqua",
       "color": "navy",
-      "backgroundColor": "aqua"
+      "text": "NOTE:"
     },
     "HACK:"
   ],
-  "search.exclude": {
-    "**/package-lock.json": true
+  "workbench.colorTheme": "Noctis Obscuro",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.foldingStrategy": "indentation",
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": false,
+    "markdown": false
   },
-  "eslint.codeAction.showDocumentation": {
-    "enable": true
-  },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "files.eol": "\n"
+  "redhat.telemetry.enabled": false
 }

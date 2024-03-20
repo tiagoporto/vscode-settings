@@ -1,15 +1,13 @@
 {
-  "[sass]": {
-    "editor.defaultFormatter": "syler.sass-indented"
-  },
-  "[stylus]": {
-    "editor.defaultFormatter": "thisismanta.stylus-supremacy"
+ "[svg]": {
+    "editor.defaultFormatter": "jock.svg"
   },
   "clipboard-manager.maxClips": 20,
   "clipboard-manager.preview": false,
   "editor.accessibilitySupport": "off",
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.foldingStrategy": "indentation",
   "editor.fontFamily": "Hasklig, 'Fira Code'",
   "editor.fontLigatures": true,
   "editor.fontSize": 15,
@@ -19,13 +17,20 @@
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "all",
   "editor.rulers": [80],
-  "eslint.alwaysShowStatus": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "eslint.run": "onSave",
   "explorer.compactFolders": false,
   "files.associations": {
     "fastcgi.conf": "NGINX",
     "mime.types": "NGINX",
     "nginx.conf": "NGINX",
-    "proxy.conf": "NGINX"
+    "proxy.conf": "NGINX",
+    "commit-msg": "shellscript",
+    "pre-commit": "shellscript",
+    "pre-push": "shellscript"
   },
   "files.eol": "\n",
   "files.exclude": {
@@ -33,7 +38,8 @@
     "**/build": true,
     "**/coverage": true,
     "**/dist": true,
-    "**/node_modules": true
+    "**/node_modules": true,
+    "**/out": true
   },
   "files.trimTrailingWhitespace": true,
   "indentRainbow.colors": [
@@ -44,7 +50,6 @@
   ],
   "indentRainbow.errorColor": "rgba(128,32,32,0.6)",
   "indentRainbow.tabmixColor": "rgba(128,32,96,0.6)",
-  "search.exclude": {},
   "todohighlight.keywords": [
     "DEBUG:",
     "REVIEW:",
@@ -63,7 +68,6 @@
   ],
   "workbench.colorTheme": "Noctis Obscuro",
   "workbench.iconTheme": "material-icon-theme",
-  "editor.foldingStrategy": "indentation",
   "github.copilot.enable": {
     "*": true,
     "yaml": true,
